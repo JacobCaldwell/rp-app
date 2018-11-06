@@ -7,7 +7,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AppComponent } from './app.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatGridList } from '@angular/material';
+import { TilesComponent } from './tiles/tiles.component';
+import { MatGridListModule } from "@angular/material";
+
 
 
 
@@ -15,6 +18,8 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
   declarations: [
     AppComponent,
     MainNavComponent,
+    TilesComponent
+    
     
   ],
   imports: [
@@ -26,7 +31,9 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

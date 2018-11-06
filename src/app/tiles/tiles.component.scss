@@ -1,0 +1,41 @@
+mat-grid-list{
+      margin: 1em 4%;
+  };
+
+  mat-grid-tile {
+    background-image: "../assets/Images/AutoCAD.jpg";
+
+    background-color:#DCDDDE;
+    color: #ED1C29;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+  };
+
+  mat-grid-tile i {
+      font-size: 6em;
+  }
+  mat-grid-tile img {
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+}
+
+mat-grid-tile h1, i, p {
+    z-index: 2;
+}
+
+
+mat-grid-tile .hover_mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0, .5);
+}
+
+mat-grid-tile .hover_mask:hover {
+
+    background-color: rgba(237, 28, 41, .75);
+    transition: .4s;
+}

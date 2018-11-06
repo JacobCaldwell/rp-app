@@ -19,3 +19,17 @@
 object {
   height: 1.5em;
 }
+
+mat-sidenav-content{
+  background-color: #F1F2F2;
+  /* background-image: "../assets/Images/bg11.jpg"; */
+}
+
+.dash{
+ color: #ED1C29;
+ font-size: 2em;
+}
+
+.title_header{
+  margin: 3em 4%;
+}

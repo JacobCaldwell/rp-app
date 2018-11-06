@@ -1,8 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+@font-face {
+    font-family: 'abbvoice';
+    src: url('./assets/Fonts/abbvoice_rg_0-webfont.woff2') format('woff2'),
+         url('./assets/Fonts/abbvoice_rg_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+mat-icon{
+    font-family: 'Material Icons' !important;
+  }
+
 html,body {
     height: 100%;
+    font-family: 'abbvoice', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 body{
